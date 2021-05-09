@@ -44,12 +44,12 @@ const ContactForm = () => {
           <Honeypot />
 
           <FormGroup>
-            <label htmlFor="name">Name</label>
+            <label htmlFor="name">Nombre</label>
             <input
               id="name"
               name="name"
               type="text"
-              ref={register({ required: 'Name is required' })}
+              ref={register({ required: 'Tu nombre es requerido' })}
             />
             {errors.name && (
               <FormErrorMessage>{errors.name.message}</FormErrorMessage>
@@ -76,12 +76,12 @@ const ContactForm = () => {
           </FormGroup>
 
           <FormGroup>
-            <label htmlFor="message">Your message</label>
+            <label htmlFor="message">Tu mensaje</label>
             <textarea
               id="message"
               name="message"
               rows="4"
-              ref={register({ required: 'Message is required' })}
+              ref={register({ required: 'Tu mensaje es requerido' })}
             />
             {errors.message && (
               <FormErrorMessage>{errors.message.message}</FormErrorMessage>
@@ -90,16 +90,16 @@ const ContactForm = () => {
 
           <FormFeedbackWrapper>
             {netlify.success && (
-              <FormSucessFeedback>Message sent succesfully</FormSucessFeedback>
+              <FormSucessFeedback><span role="img" aria-label="happy">🙂</span>El mensaje fue enviado pronto me pondre en contacto contigo </FormSucessFeedback>
             )}
             {netlify.error && (
               <FormErrorFeedback>
-                Something went wrong, please try again.
+                <span role="img" aria-label="help">😲</span> Ups!, algo salió mal, Por favor vuelve a intentarlo.
               </FormErrorFeedback>
             )}
           </FormFeedbackWrapper>
 
-          <FormButton type="submit">Send Message</FormButton>
+          <FormButton type="submit">Enviar mensaje</FormButton>
         </NetlifyFormComponent>
       </NetlifyFormProvider>
     </FormWrapper>

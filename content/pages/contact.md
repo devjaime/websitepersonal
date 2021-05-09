@@ -1,8 +1,8 @@
 ---
-title: 'Contact Me'
+title: 'Contacto'
 template: 'contact-template'
 ---
 
-# Get in Touch.
+# Contactame.
 
-If you've got an inquiry for a job or project,drop me a line at hello@hello.com or fill the form right here.
+si tienes una consulta para un trabajo o proyecto, escribeme a  hernandez.hs@gmail.com o completa el formulario.
