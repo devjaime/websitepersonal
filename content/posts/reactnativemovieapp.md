@@ -5,6 +5,10 @@ tags: [ReactNative, 2021]
 social_image: '/media/miniatura.png'
 ---
 
+## Preview Android and IOS
+
+![image](/media/01-reactnativemovie.png)
+
 ## Movie App made in React Native, from Fernando Herrara's course in which I learned concepts such as:
 * Navigation between screens
 * Api Axios
@@ -35,9 +39,7 @@ code github https://github.com/devjaime/MovieReactNative
 Youtube:[Youtube](https://www.youtube.com/watch?v=Bgb82cCue1g&t=3s)
 [![Movie Demo](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=Bgb82cCue1g&t=3s)
 
-## Preview Android and IOS
 
-![image](/media/01-reactnativemovie.png)
 
 ## Card Carousel
 
