@@ -33,18 +33,17 @@ code github https://github.com/devjaime/MovieReactNative
 # Video Youtube:
 
 Youtube:[Youtube](https://www.youtube.com/watch?v=Bgb82cCue1g&t=3s)
-
-`youtube:https://www.youtube.com/embed/Bgb82cCue1g&t=3s`
+[![Movie Demo](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=Bgb82cCue1g&t=3s)
 
 ## Preview Android and IOS
 
 ![image](/media/01-reactnativemovie.png)
 
-## card carousel
+## Card Carousel
 
 ![image](/media/02-reactnativemovie.gif)
 
 
 ## Nota
 
-> Este es un proyecto de demostracióm realizado de ReactNative .
+> Este es un proyecto de demostración realizado de ReactNative .
