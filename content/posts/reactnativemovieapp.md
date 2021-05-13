@@ -32,12 +32,15 @@ code github https://github.com/devjaime/MovieReactNative
 
 # Video Youtube:
 
-video: [youtube](https://www.youtube.com/watch?v=Bgb82cCue1g&t=3s)
+Youtube: ![video](https://www.youtube.com/watch?v=Bgb82cCue1g&t=3s)
 
 
 ## Preview Android and IOS
 
 ![image](/media/01-reactnativemovie.png)
+
+## card carousel
+
 ![image](/media/02-reactnativemovie.gif)
 
 
