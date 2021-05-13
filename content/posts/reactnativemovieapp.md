@@ -5,7 +5,7 @@ tags: [ReactNative, 2021]
 social_image: '/media/miniatura.png'
 ---
 
-# Movie App made in React Native, from Fernando Herrara's course in which I learned concepts such as:
+## Movie App made in React Native, from Fernando Herrara's course in which I learned concepts such as:
 * Navigation between screens
 * Api Axios
 * Card carousel
@@ -19,7 +19,7 @@ code github https://github.com/devjaime/MovieReactNative
 
 -----------------------------------------
 # Español
-# App de Peliculas realizada en React Native , del curso de Fernando Herrara en el cual aprendí conceptos como:
+## App de Peliculas realizada en React Native , del curso de Fernando Herrara en el cual aprendí conceptos como:
 * Navegación entre pantallas
 * Api Axios
 * Carousel de tarjetas
@@ -35,7 +35,7 @@ code github https://github.com/devjaime/MovieReactNative
 video: [youtube](https://www.youtube.com/watch?v=Bgb82cCue1g&t=3s)
 
 
-## Image del proyecto
+## Preview Android and IOS
 
 ![image](/media/01-reactnativemovie.png)
 
