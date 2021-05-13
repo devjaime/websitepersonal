@@ -32,7 +32,7 @@ code github https://github.com/devjaime/MovieReactNative
 
 # Video Youtube:
 
-Youtube: ![video](https://www.youtube.com/watch?v=Bgb82cCue1g&t=3s)
+Youtube: ![youtube](https://www.youtube.com/watch?v=Bgb82cCue1g&t=3s)
 
 
 ## Preview Android and IOS
