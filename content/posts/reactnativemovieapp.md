@@ -34,6 +34,7 @@ code github https://github.com/devjaime/MovieReactNative
 
 Youtube:[Youtube](https://www.youtube.com/watch?v=Bgb82cCue1g&t=3s)
 
+`youtube:https://www.youtube.com/embed/Bgb82cCue1g&t=3s`
 
 ## Preview Android and IOS
 
