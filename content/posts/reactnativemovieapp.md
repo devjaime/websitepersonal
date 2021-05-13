@@ -38,6 +38,7 @@ video: [youtube](https://www.youtube.com/watch?v=Bgb82cCue1g&t=3s)
 ## Preview Android and IOS
 
 ![image](/media/01-reactnativemovie.png)
+![image](/media/02-reactnativemovie.gif)
 
 
 ## Nota
