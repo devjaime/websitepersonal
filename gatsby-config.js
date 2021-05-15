@@ -51,7 +51,7 @@ module.exports = {
                 
       options: {
         name: `media`,
-        path: `${__dirname}/static/media`,
+        path: `${__dirname}/static/media/**`,
       },
     },
     {
