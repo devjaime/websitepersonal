@@ -4,50 +4,54 @@ date: 2021-05-14
 tags: [React, 2021]
 social_image: '/media/miniatura.png'
 ---
+Construyendo un sitio web ReactjS con GSAP para animaciones de desplazamiento geniales😇
+
+* Puedes ver el demo de este sitio web aquí  ▶️ https://agency-web-reactjs.netlify.app/
+---
 ### Demo 1
 
-<img src="media/02/01-miniatura-desktop.png" />
+![image](media/02/01-miniatura-desktop.png)
 
 ### Demo 2
 
-<img src="media/02/02-miniatura-desktop.png" />
+![image](media/02/02-miniatura-desktop.png)
 
 ### Demo 3
 
-<img src="media/02/03-miniatura-desktop.png" />
+![image](media/02/03-miniatura-desktop.png)
 
 ### Demo 4
 
-<img src="media/02/04-miniatura-desktop.png" />
+![image](media/02/04-miniatura-desktop.png)
 
 ### Demo 5
 
-<img src="media/02/05-miniatura-desktop.png" />
+![image](media/02/05-miniatura-desktop.png)
 
 ### Demo 6
 
-<img src="media/02/06-miniatura-desktop.png" />
+![image](media/02/06-miniatura-desktop.png)
 
 ### Demo 7
 
-<img src="media/02/07-miniatura-desktop.png" />
+![image](media/02/07-miniatura-desktop.png)
 
 
 ### Demo Mobile 1
 
-<img src="media/02/01-miniatura-mobile.png" />
+![image](media/02/01-miniatura-mobile.png)
 
 ### Demo Mobile 2
 
-<img src="media/02/02-miniatura-mobile.png" />
+![image](media/02/02-miniatura-mobile.png)
 
 ### Demo Mobile 3
 
-<img src="media/02/03-miniatura-mobile.png" />
+![image](media/02/03-miniatura-mobile.png)
 
 ### Demo Mobile 4
 
-<img src="media/02/04-miniatura-mobile.png" /> 
+![image](media/02/04-miniatura-mobile.png)
 
 ## English
 ### Author course @CodeBucks https://www.youtube.com/watch?v=aAEfBxcGpJ8&t=568s
