@@ -6,8 +6,8 @@ social_image: '/media/miniatura.png'
 ---
 Construyendo un sitio web ReactjS con GSAP para animaciones de desplazamiento geniales😇
 
-* Puedes ver el demo de este sitio web aquí  ▶️ https://agency-web-reactjs.netlify.app/
 ---
+* Puedes ver el demo de este sitio web aquí   ▶️ https://agency-web-reactjs.netlify.app/
 ### Demo 1
 
 ![image](media/02/01-miniatura-desktop.png)
