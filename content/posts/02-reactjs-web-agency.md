@@ -8,50 +8,51 @@ Construyendo un sitio web ReactjS con GSAP para animaciones de desplazamiento ge
 
 ---
 * Puedes ver el demo de este sitio web aquí   ▶️ https://agency-web-reactjs.netlify.app/
-### Demo 1
-
-![image](media/02/01-miniatura-desktop.png)
-
-### Demo 2
-
-![image](media/02/02-miniatura-desktop.png)
-
-### Demo 3
-
-![image](media/02/03-miniatura-desktop.png)
-
-### Demo 4
-
-![image](media/02/04-miniatura-desktop.png)
-
-### Demo 5
-
-![image](media/02/05-miniatura-desktop.png)
-
-### Demo 6
-
-![image](media/02/06-miniatura-desktop.png)
-
-### Demo 7
-
-![image](media/02/07-miniatura-desktop.png)
+### View Web App 1
 
 
-### Demo Mobile 1
+![image](https://github.com/devjaime/agency-web-reactjs/blob/main/src/assets/01-miniatura-desktop.png?raw=true)
 
-![image](media/02/01-miniatura-mobile.png)
+### View Web App 2
 
-### Demo Mobile 2
+![image](https://github.com/devjaime/agency-web-reactjs/blob/main/src/assets/02-miniatura-desktop.png?raw=true)
 
-![image](media/02/02-miniatura-mobile.png)
+### View Web App 3
 
-### Demo Mobile 3
+![image](https://github.com/devjaime/agency-web-reactjs/blob/main/src/assets/03-miniatura-desktop.png?raw=true)
 
-![image](media/02/03-miniatura-mobile.png)
+### View Web App 4
 
-### Demo Mobile 4
+![image](https://github.com/devjaime/agency-web-reactjs/blob/main/src/assets/04-miniatura-desktop.png?raw=true)
 
-![image](media/02/04-miniatura-mobile.png)
+### View Web App 5
+
+![image](https://github.com/devjaime/agency-web-reactjs/blob/main/src/assets/05-miniatura-desktop.png?raw=true)
+
+### View Web App 6
+
+![image](https://github.com/devjaime/agency-web-reactjs/blob/main/src/assets/06-miniatura-desktop.png?raw=true)
+
+### View Web App 7
+
+![image](https://github.com/devjaime/agency-web-reactjs/blob/main/src/assets/07-miniatura-desktop.png?raw=true)
+
+
+### View Web App Mobile 1
+
+![image](https://github.com/devjaime/agency-web-reactjs/blob/main/src/assets/01-miniatura-mobile.png?raw=true)
+
+### View Web App Mobile 2
+
+![image](https://github.com/devjaime/agency-web-reactjs/blob/main/src/assets/02-miniatura-mobile.png?raw=true)
+
+### View Web App Mobile 3
+
+![image](https://github.com/devjaime/agency-web-reactjs/blob/main/src/assets/03-miniatura-mobile.png?raw=true)
+
+### View Web App Mobile 4
+
+![image](https://github.com/devjaime/agency-web-reactjs/blob/main/src/assets/04-miniatura-mobile.png?raw=true)
 
 ## English
 ### Author course @CodeBucks https://www.youtube.com/watch?v=aAEfBxcGpJ8&t=568s
