@@ -37,10 +37,10 @@ const HeaderCreative = () => {
               <Link to="/">
                 <img
                   className="light-img"
-                  src="img/logo/light.png"
+                  src="img/logo/develop.png"
                   alt="brand"
                 />
-                <img className="dark-img" src="img/logo/dark.png" alt="brand" />
+                <img className="dark-img" src="img/logo/develop.png" alt="brand" />
               </Link>
             </div>
             <div className="menu">
@@ -94,10 +94,10 @@ const HeaderCreative = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://themeforest.net/checkout/from_item/33910000?license=regular">
+                <a href="https://www.paypal.com/donate?hosted_button_id=AHPZLS6ZR2A7S">
                     <span className="wrapper">
-                      <span className="first">Buy Now</span>
-                      <span className="second">Buy Now</span>
+                      <span className="first">Donate coffe</span>
+                      <span className="second">Donate coffe</span>
                     </span>
                   </a>
                 </li>

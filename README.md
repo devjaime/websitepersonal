@@ -1,4 +1,4 @@
-# Beny Personal Portfolio React Template
+# Personal Portfolio React Template
 
 ## Description
 Setup Procedure

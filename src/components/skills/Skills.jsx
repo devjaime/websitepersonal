@@ -3,94 +3,129 @@ import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 
 const educationContent = [
   {
-    passingYear: "2020-2021",
-    degree: "Ph.D in Horriblensess ",
-    instituteName: "Harvard University, Cambridge, MA",
+    passingYear: "Nov 2021",
+    degree: "IBM Certificate Data Anaysis using Python ",
+    instituteName: "IBM",
   },
   {
-    passingYear: "2018-2019",
-    degree: "Computer Science",
-    instituteName: "Imperialize Technical Institute",
+    passingYear: "Oct 2021",
+    degree: "NodeJS Certificate",
+    instituteName: "Hackerrank",
   },
   {
-    passingYear: "2016-2018",
-    degree: "Graphic Designer",
-    instituteName: "Web Graphy, Los Angeles, CA",
+    passingYear: "sept 2021",
+    degree: "Cloud Native Twelve-Factor Applications",
+    instituteName: "Linkedin",
+  },
+  {
+    passingYear: "ago 2021",
+    degree: "Rest API Certificate",
+    instituteName: "Hackerrank",
   },
 ];
 
 const skillsContent = [
   {
-    name: "Web Design",
-    skillPercent: "85",
+    name: "Python",
+    skillPercent: "82",
   },
   {
-    name: "Mobile App",
-    skillPercent: "55",
+    name: "Django",
+    skillPercent: "78",
   },
   {
-    name: "Illustrator",
+    name: "Docker",
+    skillPercent: "70",
+  },
+  {
+    name: "Kubernetes",
     skillPercent: "65",
   },
   {
-    name: "Photoshop",
-    skillPercent: "72",
+    name: "CI/CD",
+    skillPercent: "60",
   },
   {
-    name: "Motion Graphy",
-    skillPercent: "80",
+    name: "Node",
+    skillPercent: "90",
+  },
+  {
+    name: "Golang",
+    skillPercent: "30",
+  },
+  {
+    name: "Javascript",
+    skillPercent: "91",
+  },
+  {
+    name: "Angular",
+    skillPercent: "70",
+  },
+  {
+    name: "React",
+    skillPercent: "70",
+  },
+  {
+    name: "Dart/ Flutter",
+    skillPercent: "58",
   },
 ];
 
 const awardContent = [
   {
-    awardYear: "2020",
-    degree: "Best Developer",
-    instituteName: "University Of Melbourne, NA",
-  },
-  {
-    awardYear: "2019",
-    degree: "Best Writter",
-    instituteName: "Online Typodev Soluation Ltd.",
-  },
-  {
-    awardYear: "2007",
-    degree: "Best Freelancer ",
-    instituteName: "Fiver & Upwork Level 2 & Top Rated",
-  },
+    awardYear: "2021",
+    degree: "Artificial Intelligence",
+    instituteName: "Hackerran",
+  }
 ];
 const experienceContent = [
   {
-    designation: "Sr. Software Tester",
+    designation: "Backend Engineer",
     jobType: "Full Time | Remote",
-    year: "2020 - Present",
-    compnayName: "Google Inc.",
+    year: "2021 - Present",
+    compnayName: "Cornershop by Uber",
     descriptions:
-      "I design and develop services for customers of all sizes, specializing in creating stylish, modern websites",
+      "Design and program solutions and codes for divisions of clients, buyers, stores and brands, in addition to other areas of the company, as well as other developments technology in which it requires your contribution. ",
   },
   {
-    designation: "Sr. Graphic Designer",
-    jobType: "Part Time | Office",
+    designation: "FullStack Developer",
+    jobType: "Full Time | Remote",
+    year: "2020 - 2021",
+    compnayName: "4Agile Walmart",
+    descriptions:
+      "Currently working in 4A consultant for Walmart Chile, in high demand applications. First project, was wholesales central as FullStack (Backend python with Django) and (frontend Angular). I am currently working on the project for the store of the future, a project related to future solutions for Walmart Chile in different formats (Lider, Lider Express, wholesales central) in Chile",
+  },
+  {
+    designation: "Senior Developer",
+    jobType: "Full Time",
+    year: "2019 - 2020",
+    compnayName: "Lagash.",
+    descriptions:
+      "Currently, my position is a .net technologies engineer, where I mainly work with C # developing WPF applications, the connection of MVVM user applications to WebLogic middleware and the Oracle PL / SQL database. We work under the SCRUM methodology agile currently in a digital response in which the client withdraws and wishes to implement DEVOPS. for your projects in the cloud.",
+  },
+  {
+    designation: "SOLUTION ANALYST",
+    jobType: "Full Time",
     year: "2018 - 2019",
-    compnayName: "Avada Theme.",
+    compnayName: "Everis Movistar.",
     descriptions:
-      "I design and develop services for customers of all sizes, specializing in creating stylish, modern websites",
+      "Development of functionalities in Angular 6 for WebView that will be included in views of Ionic application Movistar Chile, work in cell agile under SCRUM methodology, this was a new technological technology architecture in migration project from AngularJS to Angular X Version 6 with Typescript continuous integration.",
   },
   {
-    designation: "Cr. Web Developer",
-    jobType: "Full Time | InHouse",
-    year: "2016 - 2017",
-    compnayName: "ib-themes ltd.",
+    designation: "FullStack Developer",
+    jobType: "Full Time",
+    year: "2015 - 2018",
+    compnayName: "Directic.",
     descriptions:
-      "I design and develop services for customers of all sizes, specializing in creating stylish, modern websites",
+      "Developer of websites and mobile technologies applied at the time with JavaScript, jQuery and backend .net, highly critical applications for the mining industry.",
   },
   {
-    designation: "Jr. Web Developer",
-    jobType: "Full Time | Remote",
-    year: "2014 - 2015",
-    compnayName: "Creative Gigs.",
+    designation: "System Analyst",
+    jobType: "Full Time",
+    year: "2006 - 2014",
+    compnayName: "Directic.",
     descriptions:
-      "I design and develop services for customers of all sizes, specializing in creating stylish, modern websites",
+      "Analysis and development of applications for portable devices, communication of equipment RS232, TCP / IP, queries and stored procedures SQL 2000 2005. Programming in C and C ++ language. Currently programming self-service machines with cash payment and bank credit cards..",
   },
 ];
 

@@ -31,7 +31,7 @@ const Header = () => {
           <div className="topbar_inner">
             <div className="logo">
               <Link to="/">
-                <img src="img/logo/dark.png" alt="brand" />
+                <img src="img/logo/develop.png" alt="brand" />
               </Link>
             </div>
             <div className="menu">
@@ -85,10 +85,10 @@ const Header = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://themeforest.net/checkout/from_item/33910000?license=regular">
+                <a href="https://www.paypal.com/donate?hosted_button_id=AHPZLS6ZR2A7S">
                     <span className="wrapper">
-                      <span className="first">Buy Now</span>
-                      <span className="second">Buy Now</span>
+                      <span className="first">Donate coffe</span>
+                      <span className="second">Donate coffe</span>
                     </span>
                   </a>
                 </li>

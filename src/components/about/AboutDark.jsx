@@ -24,14 +24,12 @@ const AboutDark = () => {
           <div className="short">
             <h3> I'm Jaime Hernandez</h3>
             <h5>
-              A Lead <span className="theme-color">UX &amp; UI</span> designer
+              Software Engineer <span className="theme-color">Full &amp; Stack </span>
               based in <span className="theme-color">Chile</span>
             </h5>
             <p>
-              I design and develop services for customers specializing creating
-              stylish, modern websites, web services and online stores. My
-              passion is to design digital user experiences through meaningful
-              interactions. Check out my Portfolio
+            I create full stack web software, currently I specialize in python and go from the backend and data science side. 
+            Teamwork under different methodologies, scrum, kanban among others
             </p>
           </div>
           <div className="extra">
@@ -81,7 +79,7 @@ const AboutDark = () => {
               </ul>
             </div>
             <div className="beny_tm_button color-outline">
-              <a href="img/about/cv.webp" download>
+              <a href="https://drive.google.com/file/d/1eOrKXKZUkNYNhpB_q0HvMg22DXxWrXCK/view?usp=sharing" download>
                 <span className="wrapper">
                   <span className="first">Download CV</span>
                   <span className="second">Download CV</span>

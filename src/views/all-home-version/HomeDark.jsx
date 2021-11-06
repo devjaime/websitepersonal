@@ -40,8 +40,10 @@ const HomeDark = () => {
             <span>About Me</span>
             <h2>About Me</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet,
-              egestas. Id fermentum nullam ipsum massa.
+            I am a software engineer who currently works in Santiago de Chile. My goal is to make a difference through creative solutions.
+            Work with project teams to create application interfaces and websites to facilitate and use users. I have had meetings with project managers, 
+            business analysts and architects since the beginning of the project, creating approximate models in which they are refined and extended over many iterations. 
+            Adjust the models as necessary to address the problems encountered and achieve the best possible solution.
             </p>
           </div>
           {/* End .beny_tm_title */}
