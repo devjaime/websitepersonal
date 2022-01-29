@@ -76,7 +76,7 @@ const HomeDarkBubbleAnimation = () => {
         <div className="container">
           <div className="beny_tm_title_holder">
             <span>Portfolio</span>
-            <h2>My Portfolio</h2>
+            <h2>My Portfolio JS</h2>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet,
               egestas. Id fermentum nullam ipsum massa.
@@ -143,7 +143,7 @@ const HomeDarkBubbleAnimation = () => {
                 <p>
                   I'm always open to discussing product
                   <br />
-                  <span>design work or partnerships.</span>
+                  <span>developer work or partnerships.</span>
                 </p>
               </div>
               <div className="fields">

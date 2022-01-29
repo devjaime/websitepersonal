@@ -20,10 +20,10 @@ const CreativePortfolio = () => {
           <TabPanel>
             <ul className="gallery_zoom">
               <ModalVideo
-                channel="youtube"
+                channel="instagram"
                 autoplay
                 isOpen={isOpen}
-                videoId="1gyTUHP6ne8"
+                videoId="CVUP1LiD00-"
                 onClose={() => setOpen(false)}
               />
               {/* End Youtube Modal video */}

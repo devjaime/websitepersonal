@@ -73,8 +73,7 @@ const HomeDarkParticles = () => {
             <span>Portfolio</span>
             <h2>My Portfolio</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet,
-              egestas. Id fermentum nullam ipsum massa.
+             Next my portfolio with different demotivation works
             </p>
           </div>
           {/* End beny_tm_title */}
@@ -138,7 +137,7 @@ const HomeDarkParticles = () => {
                 <p>
                   I'm always open to discussing product
                   <br />
-                  <span>design work or partnerships.</span>
+                  <span>developer work or partnerships.</span>
                 </p>
               </div>
               <div className="fields">

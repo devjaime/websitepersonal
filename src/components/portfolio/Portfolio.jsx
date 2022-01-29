@@ -15,7 +15,7 @@ const Portfolio = () => {
               channel="youtube"
               autoplay
               isOpen={isOpen}
-              videoId="1gyTUHP6ne8"
+              videoId="LJ5LRPdqChE"
               onClose={() => setOpen(false)}
             />
             {/* End Youtube Modal video */}
@@ -27,7 +27,7 @@ const Portfolio = () => {
                 alt="socia"
               />
               <div className="title">
-                <h3>Aura Dione </h3>
+                <h3>Bot python discord </h3>
                 <span>Youtube</span>
               </div>
               <img src="img/portfolio/3.jpg" alt="Youtube" />
