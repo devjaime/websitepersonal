@@ -17,7 +17,7 @@ const SocialTwo = () => {
     <ul>
       {socialList.map((val, i) => (
         <li key={i}>
-          <a href={val.link} target="_blank">
+          <a href={val.link} target="_blank" rel="noopener noreferrer">
             <span className="first">{val.name}</span>
             <span className="second">{val.name}</span>
           </a>
