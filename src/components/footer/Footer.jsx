@@ -14,7 +14,7 @@ const Footer = () => {
             >
               ib-themes
             </a>
-            . All rights reserved.
+            . All rights reserved Jaime Hernández.
           </p>
         </div>
       </div>
