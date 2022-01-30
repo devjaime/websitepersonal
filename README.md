@@ -1,3 +1,5 @@
+[![Netlify](https://github.com/devjaime/websitepersonal/actions/workflows/netlify.js.yml/badge.svg)](https://github.com/devjaime/websitepersonal/actions/workflows/netlify.js.yml)
+
 # Personal Portfolio React Template
 
 ## Description
