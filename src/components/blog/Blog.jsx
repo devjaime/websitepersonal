@@ -104,7 +104,7 @@ const Blog = () => {
                             out of the ordinary. There are a number of
                             remarkable things about these lockdown days that are
                             worth photographing now so we can remember them when
-                            it is all over.
+                            it is all over...
                           </p>
                           <p>
                             Streets empty that are usually busy are remarkable
