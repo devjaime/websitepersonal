@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Scrollspy from "react-scrollspy";
-import { Link } from "react-router-dom";
 import {
   FiHome,
   FiUser,
