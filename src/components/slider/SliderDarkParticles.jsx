@@ -36,7 +36,7 @@ const SliderDarkParticles = () => {
           className="image"
           style={{
             backgroundImage: `url(${
-              process.env.PUBLIC_URL + "img/slider/code.png"
+              process.env.PUBLIC_URL + "https://github.com/devjaime/websitepersonal/blob/main/public/img/slider/code.png?raw=true"
             })`,
           }}
         ></div>
