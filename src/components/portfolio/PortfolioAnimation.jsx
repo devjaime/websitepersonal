@@ -97,7 +97,7 @@ const PortfolioAnimation = () => {
                 <div className="overlay"></div>
                 <img className="svg" src="img/svg/zoom.svg" alt="socia" />
                 <div className="title">
-                  <h3>Kelly Smith</h3>
+                  <h3>Jaime Hernandez</h3>
                   <span>Shoot</span>
                 </div>
 
