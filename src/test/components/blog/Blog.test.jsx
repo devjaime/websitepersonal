@@ -1,12 +1,13 @@
 import React from 'react';
 import '@testing-library/jest-dom';
 import {shallow} from 'enzyme';
-import About from '../../../components/about/AboutDark';
+import Blog from '../../../components/Blog/Blog';
 
-describe('Test component <AboutDark />', () =>{
+describe('Test component <Blog />', () =>{
 
     test(' Test snapshot', ()=>{
-        const wrapper = shallow(<About />)
+      
+        const wrapper = shallow(<Blog />)
         expect(wrapper).toMatchSnapshot()
     }); 
 } )

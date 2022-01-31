@@ -1,0 +1,180 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test component <CallToAction />  Test snapshot 1`] = `
+<div
+  className="shane_tm_section"
+  id="contact"
+>
+  <div
+    className="shane_tm_talk bg_image_props"
+    style={
+      Object {
+        "backgroundImage": "url(img/callto-action/1.jpg)",
+      }
+    }
+  >
+    <div
+      className="shape"
+    >
+      <img
+        alt="partners brand"
+        className="svg"
+        src="/img/svg/paper.svg"
+      />
+    </div>
+    <div
+      className="background"
+      id="talk"
+    >
+      <a
+        className="player"
+      />
+      <div
+        className="overlay"
+      />
+    </div>
+    <div
+      className="talk_inner"
+    >
+      <div
+        className="text"
+      >
+        <h3>
+          Let's work together!
+        </h3>
+      </div>
+      <div
+        className="button"
+      >
+        <button
+          className="white-fill-bg"
+          onClick={[Function]}
+        >
+          Make an enquiry
+        </button>
+      </div>
+    </div>
+  </div>
+  <Modal
+    ariaHideApp={true}
+    bodyOpenClassName="ReactModal__Body--open"
+    className="custom-modal"
+    closeTimeoutMS={500}
+    contentElement={[Function]}
+    contentLabel="My dialog"
+    isOpen={false}
+    onRequestClose={[Function]}
+    overlayClassName="custom-overlay"
+    overlayElement={[Function]}
+    parentSelector={[Function]}
+    portalClassName="ReactModalPortal"
+    preventScroll={false}
+    role="dialog"
+    shouldCloseOnEsc={true}
+    shouldCloseOnOverlayClick={true}
+    shouldFocusAfterRender={true}
+    shouldReturnFocusAfterClose={true}
+  >
+    <div
+      className="shane_tm_mobalbox_contact"
+    >
+      <button
+        className="close-modal"
+        onClick={[Function]}
+      >
+        <img
+          alt="close icon"
+          src="/img/svg/cancel.svg"
+        />
+      </button>
+      <div
+        className="box_inner"
+      >
+        <div
+          className="description_wrap scrollable"
+        >
+          <div
+            className="title"
+          >
+            <h3>
+              Get in touch
+            </h3>
+          </div>
+          <div
+            className="wrapper"
+          >
+            <div
+              className="left"
+            >
+              <div
+                className="fields"
+              >
+                <Contact />
+              </div>
+            </div>
+            <div
+              className="right"
+            >
+              <div
+                className="map_wrap"
+              >
+                <Map />
+              </div>
+            </div>
+          </div>
+          <div
+            className="short_info"
+          >
+            <ul>
+              <li>
+                <div
+                  className="list_inner"
+                >
+                  <img
+                    alt="location"
+                    className="svg"
+                    src="img/svg/location.svg"
+                  />
+                  <p>
+                    Brook 103, 90021 New York, USA
+                  </p>
+                </div>
+              </li>
+              <li>
+                <div
+                  className="list_inner"
+                >
+                  <img
+                    alt="phone"
+                    className="svg"
+                    src="img/svg/phone.svg"
+                  />
+                  <p>
+                    <a
+                      href="tel:+77 033 442 55 57"
+                    >
+                      +77 033 442 55 57
+                    </a>
+                  </p>
+                </div>
+              </li>
+              <li>
+                <div
+                  className="list_inner"
+                >
+                  <img
+                    alt="share"
+                    className="svg"
+                    src="img/svg/share.svg"
+                  />
+                  <Social />
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </Modal>
+</div>
+`;
