@@ -1,7 +1,7 @@
 import React from 'react';
 import '@testing-library/jest-dom';
 import {shallow} from 'enzyme';
-import Blog from '../../../components/Blog/Blog';
+import Blog from '../../../components/blog/Blog';
 
 describe('Test component <Blog />', () =>{
 
