@@ -5,7 +5,7 @@ import Contact from "../Contact";
 import Reveal from "react-reveal/Reveal";
 import Social from "../Social";
 
-Modal.setAppElement("#root");
+if (process.env.NODE_ENV !== 'test') Modal.setAppElement('#root');
 
 const CallToActionTwo = () => {
   const [isOpen, setIsOpen] = useState(false);
