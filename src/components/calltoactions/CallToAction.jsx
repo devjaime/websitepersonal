@@ -4,7 +4,7 @@ import Map from "../Map";
 import Contact from "../Contact";
 import Social from "../Social";
 
-Modal.setAppElement("#root");
+if (process.env.NODE_ENV !== 'test') Modal.setAppElement('#root');
 
 const CallToAction = () => {
   const [isOpen, setIsOpen] = useState(false);
