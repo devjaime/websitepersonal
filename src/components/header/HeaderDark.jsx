@@ -3,11 +3,10 @@ import Scrollspy from "react-scrollspy";
 import {
   FiHome,
   FiUser,
-  FiSettings,
   FiGrid,
-  FiCast,
   FiPhoneOutgoing,
 } from "react-icons/fi";
+import {useTranslation} from "react-i18next";
 
 const Header = () => {
   const [navbar, setNavbar] = useState(false);
@@ -21,7 +20,7 @@ const Header = () => {
   };
 
   window.addEventListener("scroll", changeBackground);
-
+  const [t] = useTranslation("global")
   return (
     <>
       {/* TOPBAR  */}
@@ -37,9 +36,7 @@ const Header = () => {
                 items={[
                   "home",
                   "about",
-                  "service",
                   "portfolio",
-                  "news",
                   "contact",
                 ]}
                 currentClassName="current"
@@ -47,45 +44,33 @@ const Header = () => {
               >
                 <li className="current">
                   <a href="#home">
-                    <span className="first">Home</span>
-                    <span className="second">Home</span>
+                    <span className="first">  {t("Header.Home")}</span>
+                    <span className="second"> {t("Header.Home")}</span>
                   </a>
                 </li>
                 <li>
                   <a href="#about">
-                    <span className="first">About</span>
-                    <span className="second">About</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="#service">
-                    <span className="first">Service</span>
-                    <span className="second">Service</span>
+                    <span className="first"> {t("Header.About")}</span>
+                    <span className="second"> {t("Header.About")}</span>
                   </a>
                 </li>
                 <li>
                   <a href="#portfolio">
-                    <span className="first">Portfolio</span>
-                    <span className="second">Portfolio</span>
-                  </a>
-                </li>
-                <li>
-                  <a href="#news">
-                    <span className="first">News</span>
-                    <span className="second">News</span>
+                    <span className="first"> {t("Header.Portfolio")}</span>
+                    <span className="second"> {t("Header.Portfolio")}</span>
                   </a>
                 </li>
                 <li>
                   <a href="#contact">
-                    <span className="first">Contact</span>
-                    <span className="second">Contact</span>
+                    <span className="first">{t("Header.Contact")}</span>
+                    <span className="second">{t("Header.Contact")}</span>
                   </a>
                 </li>
                 <li>
                   <a href="https://www.paypal.com/donate?hosted_button_id=AHPZLS6ZR2A7S">
                     <span className="wrapper">
-                      <span className="first">Donate coffe</span>
-                      <span className="second">Donate coffe</span>
+                      <span className="first">{t("Header.Donate")}</span>
+                      <span className="second">{t("Header.Donate")}</span>
                     </span>
                   </a>
                 </li>
@@ -106,37 +91,25 @@ const Header = () => {
           <li>
             <a href="#home">
               <FiHome />
-              <span>Home</span>
+              <span> {t("Header.Home")}</span>
             </a>
           </li>
           <li>
             <a href="#about">
               <FiUser />
-              <span>About</span>
-            </a>
-          </li>
-          <li>
-            <a href="#service">
-              <FiSettings />
-              <span>Serivce</span>
+              <span> {t("Header.About")}</span>
             </a>
           </li>
           <li>
             <a href="#portfolio">
               <FiGrid />
-              <span>Portfolio</span>
-            </a>
-          </li>
-          <li>
-            <a href="#news">
-              <FiCast />
-              <span>News</span>
+              <span> {t("Header.Portfolio")}</span>
             </a>
           </li>
           <li>
             <a href="#contact">
               <FiPhoneOutgoing />
-              <span>Contact</span>
+              <span>{t("Header.Contact")}</span>
             </a>
           </li>
         </Scrollspy>

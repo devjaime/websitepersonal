@@ -1,7 +1,8 @@
 import React from "react";
 import Skills from "../skills/Skills";
-
+import {useTranslation} from "react-i18next";
 const AboutDark = () => {
+  const [t] = useTranslation("global")
   return (
     <>
       <div className="about_inner">
@@ -22,67 +23,56 @@ const AboutDark = () => {
           data-wow-delay="0.3s"
         >
           <div className="short">
-            <h3> I'm Jaime Hernandez</h3>
+            <h3> {t("About.myName")}</h3>
             <h5>
-              Software Engineer <span className="theme-color">Full &amp; Stack </span>
-              based in <span className="theme-color">Chile</span>
+            {t("About.profesion")} <span className="theme-color">Web &amp; Developer </span>
+            {t("About.region")}<span className="theme-color"> {t("About.country")}</span>
             </h5>
             <p>
-            I create full stack web software, currently I specialize in python and go from the backend and data science side. 
-            Teamwork under different methodologies, scrum, kanban among others
+            {t("About.bio")}
             </p>
           </div>
           <div className="extra">
-            <h3 className="title">Personal Info</h3>
+            <h3 className="title">{t("About.titleinfo")}</h3>
             <div className="list">
               <ul>
                 <li>
                   <p>
-                    <span>Name :</span> Jaime Hernandez
+                    <span>{t("About.titleName")} :</span> Jaime Hernández
                   </p>
                 </li>
                 <li>
                   <p>
-                    <span>Address :</span> Santiago of Chile
+                    <span>Freelance :</span> {t("About.FreelanceAvailable")}
                   </p>
                 </li>
                 <li>
                   <p>
-                    <span>Age :</span> 38 Years
+                    <span>{t("About.titleTwitter")} :</span> HsJhernandez
                   </p>
                 </li>
                 <li>
                   <p>
-                    <span>Phone :</span> +56949288019
+                    <span>{t("About.titleAdress")} :</span> Santiago, Chile
                   </p>
                 </li>
                 <li>
                   <p>
-                    <span>Nationality :</span> Chilean
+                    <span>{t("About.titleEmail")} :</span> hernandez.hs@gmail.com
                   </p>
                 </li>
                 <li>
                   <p>
-                    <span>mail :</span> hernandez.hs@gmail
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <span>Freelance :</span> Available
-                  </p>
-                </li>
-                <li>
-                  <p>
-                    <span>Languages :</span> Spanish, English
+                    <span>{t("About.titleLanguagles")} :</span> Spanish, English
                   </p>
                 </li>
               </ul>
             </div>
             <div className="beny_tm_button color-outline">
-              <a href="https://drive.google.com/file/d/1eOrKXKZUkNYNhpB_q0HvMg22DXxWrXCK/view?usp=sharing" download>
+              <a href={t("About.LinkCV")} download>
                 <span className="wrapper">
-                  <span className="first">Download CV</span>
-                  <span className="second">Download CV</span>
+                  <span className="first">{t("About.DownloadCV")}</span>
+                  <span className="second">{t("About.DownloadCV")}</span>
                 </span>
               </a>
             </div>
