@@ -1,29 +1,13 @@
 import React from "react";
-
-const socialList = [
-  {
-    name: "EN.",
-    link: "https://www.facebook.com/",
-  },
-  {
-    name: "SP.",
-    link: "https://dribbble.com/",
-  },
-  
-];
+import {useTranslation} from "react-i18next";
 
 const SocialTwo = () => {
+  const [t,i18n] = useTranslation("global");
   return (
-    <ul>
-      {socialList.map((val, i) => (
-        <li key={i}>
-          <a href={val.link} target="_blank" rel="noopener noreferrer">
-            <span className="first">{val.name}</span>
-            <span className="second">{val.name}</span>
-          </a>
-        </li>
-      ))}
-    </ul>
+  <>
+    <button className="first" onClick={() => i18n.changeLanguage("es")}>Español</button>
+    <button className="second" onClick={() => i18n.changeLanguage("en")}>English</button>
+  </>
   );
 };
 

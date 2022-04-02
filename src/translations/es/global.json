@@ -1,0 +1,34 @@
+{
+    "About": {
+        "myName": "Soy Jaime Hernández",
+        "profesion": "Ingeniero de Software",
+        "region": "América Latina",
+        "country": "Chile",
+        "bio": "Desarrollo software a medida, tanto para backend frontend y mobile, actualmente trabajo como ingeniero de software, y tengo conocimientos avanzados en javascript y python, flutter",
+        "titleinfo": "Información Personal",
+        "titleName": "Nombre",
+        "titleAdress": "Dirección",
+        "titleTwitter": "Teléfono",
+        "titleEmail": "Email",
+        "titleLanguagles": "Idiomas",
+        "FreelanceAvailable": "Disponible",
+        "DownloadCV": "Descargar CV",
+        "LinkCV": "https://drive.google.com/file/d/1izH31RisuGXrssIlLKe27Y16Dli0kRWm/view?usp=sharing"
+    },
+    "Header": {
+        "Home": "Inicio",
+        "About": "Bio",
+        "Services": "Servicio",
+        "Portfolio": "Portafólio",
+        "News": "Noticias",
+        "Contact": "Contacto",
+        "Donate": "Donar un cafe"
+    },
+    "Slider": {
+        "name": "Hola! Soy Jaime Hernández",
+        "from": "En Chile",
+        "bio": "Desarrollador de software a medida",
+        "getStarted": "Empezar"
+    }
+
+}

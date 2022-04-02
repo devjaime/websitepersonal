@@ -3,8 +3,10 @@ import Social from "../Social";
 import SocialTwo from "../SocialTwo";
 import Particles from "react-particles-js";
 import ReactTyped from "react-typed";
+import {useTranslation} from "react-i18next";
 
 const SliderDarkParticles = () => {
+  const [t] = useTranslation("global");
   return (
     //    HERO
     <div className="beny_tm_hero" id="home">
@@ -54,14 +56,14 @@ const SliderDarkParticles = () => {
       <div className="container">
         <div className="content">
           <div className="content_inner">
-            <h3 className="name">Hi! I'm Jaime Hernandez</h3>
+            <h3 className="name">{t("Slider.name")}</h3>
             <h1 className="job">
               <span className="typer-toper">
                 <ReactTyped
                   loop
                   typeSpeed={150}
                   backSpeed={60}
-                  strings={["Frontend", "Backend", "Mobile"]}
+                  strings={["Software", "Engineer", "Full Stack"]}
                   smartBackspace
                   shuffle={false}
                   backDelay={1}
@@ -72,12 +74,10 @@ const SliderDarkParticles = () => {
                   cursorChar="|"
                 />
               </span>
-              <br /> <span>Based In Chile.</span>
+              <br /> <span>{t("Slider.from")}.</span>
             </h1>
             <p className="text">
-              I'm developer focused on crafting user‑friendly experiences, I am
-              passionate about building excellent software that improves the
-              lives of those around me.
+              {t("Slider.bio")}
             </p>
             <div className="mobile_social">
               <Social />
@@ -87,8 +87,8 @@ const SliderDarkParticles = () => {
             <div className="beny_tm_button">
               <a className="anchor" href="#about">
                 <span className="wrapper">
-                  <span className="first">Get Started</span>
-                  <span className="second">Get Started</span>
+                  <span className="first">Empezar</span>
+                  <span className="second">Empezar</span>
                 </span>
               </a>
             </div>
