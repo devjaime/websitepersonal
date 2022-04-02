@@ -1,11 +1,8 @@
-import React, { Suspense } from 'react';
+import React from "react";
 import Social from "../Social";
 import SocialTwo from "../SocialTwo";
 import Particles from "react-particles-js";
 import ReactTyped from "react-typed";
-import { Canvas } from '@react-three/fiber';
-import { OrbitControls } from '@react-three/drei';
-import Model from '../../Model';
 
 const SliderDarkParticles = () => {
   return (
@@ -37,27 +34,12 @@ const SliderDarkParticles = () => {
       <div className="background">
         <div
           className="image"
-        >
-           <Canvas
-            camera={{ position: [2, 0, 12.25], fov: 15 }}
-            style={{
-              backgroundColor: '#111a21',
-              width: '100vw',
-              height: '100vh',
-            }}
-          >
-            <ambientLight intensity={1.25} />
-            <ambientLight intensity={0.1} />
-            <directionalLight intensity={0.4} />
-            <Suspense fallback={null}>
-              <Model position={[0.025, -0.9, 0]} />
-            </Suspense>
-            <OrbitControls />
-          </Canvas>
-        </div>
-        <div>
-       
-        </div>
+          style={{
+            backgroundImage: `url(${
+              process.env.PUBLIC_URL + "https://github.com/devjaime/websitepersonal/blob/main/public/img/slider/code.png?raw=true"
+            })`,
+          }}
+        ></div>
         <div className="overlay"></div>
       </div>
       {/* End bg */}
