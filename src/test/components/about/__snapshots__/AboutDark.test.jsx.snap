@@ -30,24 +30,27 @@ exports[`Test component <AboutDark />  Test snapshot 1`] = `
         className="short"
       >
         <h3>
-           I'm Jaime Hernandez
+           
+          About.myName
         </h3>
         <h5>
-          Software Engineer 
+          About.profesion
+           
           <span
             className="theme-color"
           >
-            Full & Stack 
+            Web & Developer 
           </span>
-          based in 
+          About.region
           <span
             className="theme-color"
           >
-            Chile
+             
+            About.country
           </span>
         </h5>
         <p>
-          I create full stack web software, currently I specialize in python and go from the backend and data science side. Teamwork under different methodologies, scrum, kanban among others
+          About.bio
         </p>
       </div>
       <div
@@ -56,7 +59,7 @@ exports[`Test component <AboutDark />  Test snapshot 1`] = `
         <h3
           className="title"
         >
-          Personal Info
+          About.titleinfo
         </h3>
         <div
           className="list"
@@ -65,49 +68,10 @@ exports[`Test component <AboutDark />  Test snapshot 1`] = `
             <li>
               <p>
                 <span>
-                  Name :
+                  About.titleName
+                   :
                 </span>
-                 Jaime Hernandez
-              </p>
-            </li>
-            <li>
-              <p>
-                <span>
-                  Address :
-                </span>
-                 Santiago of Chile
-              </p>
-            </li>
-            <li>
-              <p>
-                <span>
-                  Age :
-                </span>
-                 38 Years
-              </p>
-            </li>
-            <li>
-              <p>
-                <span>
-                  Phone :
-                </span>
-                 +56949288019
-              </p>
-            </li>
-            <li>
-              <p>
-                <span>
-                  Nationality :
-                </span>
-                 Chilean
-              </p>
-            </li>
-            <li>
-              <p>
-                <span>
-                  mail :
-                </span>
-                 hernandez.hs@gmail
+                 Jaime Hernández
               </p>
             </li>
             <li>
@@ -115,13 +79,42 @@ exports[`Test component <AboutDark />  Test snapshot 1`] = `
                 <span>
                   Freelance :
                 </span>
-                 Available
+                 
+                About.FreelanceAvailable
               </p>
             </li>
             <li>
               <p>
                 <span>
-                  Languages :
+                  About.titleTwitter
+                   :
+                </span>
+                 HsJhernandez
+              </p>
+            </li>
+            <li>
+              <p>
+                <span>
+                  About.titleAdress
+                   :
+                </span>
+                 Santiago, Chile
+              </p>
+            </li>
+            <li>
+              <p>
+                <span>
+                  About.titleEmail
+                   :
+                </span>
+                 hernandez.hs@gmail.com
+              </p>
+            </li>
+            <li>
+              <p>
+                <span>
+                  About.titleLanguagles
+                   :
                 </span>
                  Spanish, English
               </p>
@@ -133,7 +126,7 @@ exports[`Test component <AboutDark />  Test snapshot 1`] = `
         >
           <a
             download={true}
-            href="https://drive.google.com/file/d/1eOrKXKZUkNYNhpB_q0HvMg22DXxWrXCK/view?usp=sharing"
+            href="About.LinkCV"
           >
             <span
               className="wrapper"
@@ -141,12 +134,12 @@ exports[`Test component <AboutDark />  Test snapshot 1`] = `
               <span
                 className="first"
               >
-                Download CV
+                About.DownloadCV
               </span>
               <span
                 className="second"
               >
-                Download CV
+                About.DownloadCV
               </span>
             </span>
           </a>
