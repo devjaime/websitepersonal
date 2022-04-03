@@ -2,7 +2,7 @@ import React from "react";
 import Skills from "../skills/Skills";
 import {useTranslation} from "react-i18next";
 const AboutDark = () => {
-  const [t] = useTranslation("global")
+  const [t] = useTranslation("global");
   return (
     <>
       <div className="about_inner">

@@ -3,6 +3,16 @@ import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 
 const educationContent = [
   {
+    passingYear: "April 2022",
+    degree: "Bootcamp Architecture Nodejs Developer",
+    instituteName: "CodeDev",
+  },
+  {
+    passingYear: "Ene 2022",
+    degree: "Data Anaysis using Python",
+    instituteName: "Escalab",
+  },
+  {
     passingYear: "Nov 2021",
     degree: "IBM Certificate Data Anaysis using Python ",
     instituteName: "IBM",

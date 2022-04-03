@@ -29,6 +29,17 @@
         "from": "En Chile",
         "bio": "Desarrollador de software a medida",
         "getStarted": "Empezar"
+    },
+    "Contact":{
+        "nameRequired": "Por favor ingrese su nombre",
+        "emailInvalidate": "Su email no contiene una dirección de correo válida",
+        "subjectRequired": "Por favor ingrese un asunto",
+        "messageRequired": "Mensaje es requerido",
+        "submit": "Enviar",
+        "name": "Nombre *",
+        "emailRequired": "Email requerido",
+        "subject": "Asunto *",
+        "message": "Mensaje *"
     }
 
 }
