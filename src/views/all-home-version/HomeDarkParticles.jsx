@@ -10,8 +10,10 @@ import Blog from "../../components/blog/Blog";
 import Contact from "../../components/Contact";
 import Footer from "../../components/footer/Footer";
 import Address from "../../components/Address";
+import {useTranslation} from "react-i18next";
 
 const HomeDarkParticles = () => {
+  const [t] = useTranslation("global");
   document.body.classList.add("dark");
   return (
     <div className="home-light">
@@ -34,13 +36,10 @@ const HomeDarkParticles = () => {
       <div className="beny_tm_about" id="about">
         <div className="container">
           <div className="beny_tm_title_holder">
-            <span>About Me</span>
-            <h2>About Me</h2>
+            <span>{t("Home.aboutMe")}</span>
+            <h2>{t("Home.aboutMe")}</h2>
             <p>
-              I am a software engineer who currently works in Santiago de Chile. My goal is to make a difference through creative solutions.
-              Work with project teams to create application interfaces and websites to facilitate and use users. I have had meetings with project managers, 
-              business analysts and architects since the beginning of the project, creating approximate models in which they are refined and extended over many iterations. 
-              Adjust the models as necessary to address the problems encountered and achieve the best possible solution.
+            {t("Home.detail")}
             </p>
           </div>
           {/* End .beny_tm_title */}
@@ -54,10 +53,10 @@ const HomeDarkParticles = () => {
       <div className="beny_tm_services" id="service">
         <div className="container">
           <div className="beny_tm_title_holder">
-            <span>Services</span>
-            <h2>I provide wide range of digital services</h2>
+            <span> {t("Home.titleServices")}</span>
+            <h2>{t("Home.subtitleServices")}</h2>
             <p>
-              custom software development, backend apis development, website development, bot integration, data analysis with python.
+            {t("Home.detailServices")}
             </p>
           </div>
           {/* End beny_tm_title */}
@@ -70,10 +69,10 @@ const HomeDarkParticles = () => {
       <div className="beny_tm_portfolio" id="portfolio">
         <div className="container">
           <div className="beny_tm_title_holder">
-            <span>Portfolio</span>
-            <h2>My Portfolio</h2>
+            <span> {t("Home.titlePortfolio")}</span>
+            <h2> {t("Home.subtitlePortfolio")}</h2>
             <p>
-             Next my portfolio with different demotivation works
+            {t("Home.detailPortfolio")}
             </p>
           </div>
           {/* End beny_tm_title */}
@@ -86,11 +85,10 @@ const HomeDarkParticles = () => {
       <div className="beny_tm_testimonials">
         <div className="container">
           <div className="beny_tm_title_holder">
-            <span>Testimonials</span>
-            <h2>What's Clients Say.</h2>
+            <span> {t("Home.titleTestimonials")}</span>
+            <h2> {t("Home.subtitleTestimonials")}.</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet,
-              egestas. Id fermentum nullam ipsum massa.
+            {t("Home.detailTestimonials")}
             </p>
           </div>
           {/* End beny_tm_title */}
@@ -105,11 +103,10 @@ const HomeDarkParticles = () => {
       <div className="beny_tm_news" id="news">
         <div className="container">
           <div className="beny_tm_title_holder">
-            <span>Blogs</span>
-            <h2>Recent News</h2>
+            <span>{t("Home.blog")}</span>
+            <h2>{t("Home.recentNews")}</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet,
-              egestas. Id fermentum nullam ipsum massa.
+            {t("Home.detailNews")}
             </p>
           </div>
           {/* End beny_tm_title */}
@@ -124,8 +121,8 @@ const HomeDarkParticles = () => {
           <div className="contact_inner">
             <div className="left">
               <div className="beny_tm_title_holder">
-                <span>Contact</span>
-                <h2>Let's discuss your project</h2>
+                <span>{t("Home.contact")}</span>
+                <h2>{t("Home.subtitleContact")}</h2>
               </div>
               <div className="short_list">
                 <Address />
@@ -135,9 +132,9 @@ const HomeDarkParticles = () => {
             <div className="right">
               <div className="title">
                 <p>
-                  I'm always open to discussing product
+                {t("Home.detailProduct")}
                   <br />
-                  <span>developer work or partnerships.</span>
+                  <span>{t("Home.partnerships")}.</span>
                 </p>
               </div>
               <div className="fields">
