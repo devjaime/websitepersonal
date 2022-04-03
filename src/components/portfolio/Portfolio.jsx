@@ -30,16 +30,16 @@ const Portfolio = () => {
                 <h3>Bot python discord </h3>
                 <span>Youtube</span>
               </div>
-              <img src="img/portfolio/3.jpg" alt="Youtube" />
+              <img src="https://i.ytimg.com/vi/LJ5LRPdqChE/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAu1NsDWV9YdH75kAZXCSAlRIVsiw" alt="Youtube" />
             </div>
           </li>
           {/* End youtube */}
           <li>
             <ModalVideo
-              channel="vimeo"
+              channel="youtube"
               autoplay
               isOpen={isOpen2}
-              videoId="100171151"
+              videoId="c02KviQGgWA"
               onClose={() => setOpen2(false)}
             />
             {/* End Youtube Modal video */}
@@ -47,17 +47,19 @@ const Portfolio = () => {
               <div className="overlay"></div>
               <img
                 className="svg popup"
-                src="img/svg/social/vimeo.svg"
+                src="img/svg/social/youtube.svg"
                 alt="socia"
               />
               <div className="title">
-                <h3>Aura Dione </h3>
-                <span>Vimeo</span>
+                <h3>Chat Bot IA  Real Time</h3>
+                <span>Youtube</span>
               </div>
-              <img src="img/portfolio/2.jpg" alt="Vimeo" />
+              <img src="https://i.ytimg.com/vi/c02KviQGgWA/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBMIuR5F8NXIt30gDzgpovGXBKtQw" alt="Youtube" />
             </div>
           </li>
-          {/* End vimeo */}
+          {/* End youtube */}
+          
+
 
           <SRLWrapper>
             <li>
@@ -74,52 +76,6 @@ const Portfolio = () => {
                 </a>
               </div>
             </li>
-            {/* End image popup */}
-            <li>
-              <div className="list_inner">
-                <div className="overlay"></div>
-                <img className="svg" src="img/svg/zoom.svg" alt="socia" />
-                <div className="title">
-                  <h3>Kelly Smith</h3>
-                  <span>Shoot</span>
-                </div>
-
-                <a href="img/portfolio/4.jpg">
-                  <img src="img/portfolio/4.jpg" alt="Cinema Shoot" />
-                </a>
-              </div>
-            </li>
-            {/* End image popup */}
-            <li>
-              <div className="list_inner">
-                <div className="overlay"></div>
-                <img className="svg" src="img/svg/zoom.svg" alt="socia" />
-                <div className="title">
-                  <h3>Duru Sweet</h3>
-                  <span>Shoot</span>
-                </div>
-
-                <a href="img/portfolio/5.jpg">
-                  <img src="img/portfolio/5.jpg" alt="Best Shoot" />
-                </a>
-              </div>
-            </li>
-            {/* End image popup */}
-            <li>
-              <div className="list_inner">
-                <div className="overlay"></div>
-                <img className="svg" src="img/svg/zoom.svg" alt="socia" />
-                <div className="title">
-                  <h3>Lisa Kotlins</h3>
-                  <span>Shoot</span>
-                </div>
-
-                <a href="img/portfolio/6.jpg">
-                  <img src="img/portfolio/6.jpg" alt="Light Shoot" />
-                </a>
-              </div>
-            </li>
-            {/* End image popup */}
           </SRLWrapper>
         </ul>
       </div>
