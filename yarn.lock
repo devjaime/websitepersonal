@@ -1226,6 +1226,11 @@
   resolved "https://registry.yarnpkg.com/@csstools/normalize.css/-/normalize.css-10.1.0.tgz"
   integrity sha512-ij4wRiunFfaJxjB0BdrYHIH8FxBJpOwNPhhAcunlmPdXudL1WQV1qoP9un6JsEBAgQH+7UXyyjh0g7jTxXK6tg==
 
+"@emailjs/browser@^3.5.0":
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/@emailjs/browser/-/browser-3.5.0.tgz#2492baa62df0edef1012cbb26f90a7d23b9d54b0"
+  integrity sha512-VDpyaF2Xkt21/gRaV5TgZ8+CSsMy3+UTJo7K3/NL63gfBQIzrVQiK1U7Jw4PqpFDps9a1Gj7q8gfJ7thxUIRcw==
+
 "@emotion/is-prop-valid@^0.8.2":
   version "0.8.8"
   resolved "https://registry.yarnpkg.com/@emotion/is-prop-valid/-/is-prop-valid-0.8.8.tgz"
@@ -4640,6 +4645,11 @@ elliptic@^6.5.3:
     inherits "^2.0.4"
     minimalistic-assert "^1.0.1"
     minimalistic-crypto-utils "^1.0.1"
+
+emailjs@^3.8.0:
+  version "3.8.0"
+  resolved "https://registry.yarnpkg.com/emailjs/-/emailjs-3.8.0.tgz#db1111911c6e1091341b5b34ecd9cc9d89f208b0"
+  integrity sha512-ZLMFAC3C8GNebBvDpPgHwPeK4Ajx/rkq1TqLNFH9bC9TwEac1JhIYb3KuBY5eNfr0YVUaEfGughWszRBD5rcgQ==
 
 emittery@^0.7.1:
   version "0.7.2"

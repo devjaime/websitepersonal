@@ -29,6 +29,17 @@
         "from": "From Chile",
         "bio": "I develop custom software",
         "getStarted": "Get Started"
+    },
+    "Contact":{
+        "nameRequired": "Name es required",
+        "emailValidate": "Entered value does not match email format",
+        "subjectRequired": "Subject is required",
+        "messageRequired": "Message is required",
+        "submit": "Submit",
+        "name": "Name *",
+        "emailRequired": "Email is required",
+        "subject": "Subject *",
+        "message": "Message *"
     }
 
 }
