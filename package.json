@@ -7,6 +7,7 @@
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
     "aos": "^2.3.4",
+    "enzyme": "^3.11.0",
     "i18next": "^21.6.14",
     "react": "^17.0.2",
     "react-animated-cursor": "^2.2.0",
@@ -59,7 +60,7 @@
     ]
   },
   "devDependencies": {
-    "@wojtekmaj/enzyme-adapter-react-17": "^0.6.6",
+    "@wojtekmaj/enzyme-adapter-react-17": "^0.6.7",
     "enzyme-to-json": "^3.6.2"
   }
 }
