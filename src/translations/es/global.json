@@ -26,7 +26,7 @@
     },
     "Slider": {
         "name": "Hola! Soy Jaime Hernández",
-        "from": "En Chile",
+        "from": "Developer",
         "bio": "Desarrollador de software a medida",
         "getStarted": "Empezar"
     },
@@ -40,6 +40,27 @@
         "emailRequired": "Email requerido",
         "subject": "Asunto *",
         "message": "Mensaje *"
+    },
+    "Home": {
+        "aboutMe": "Sobre mi",
+        "detail":  "Soy un ingeniero de software que actualmente trabaja en Santiago de Chile. Mi objetivo es marcar la diferencia a través de soluciones creativas. Trabajar con equipos de proyectos para crear interfaces de aplicaciones y sitios web que ayuden a facilitar y hacer la vida más facil a las personas.",
+        "titleServices": "Servicios",
+        "subtitleServices": "Proporciono una amplia gama de servicios digitales.",
+        "detailServices": "Desarrollo de software personalizado, desarrollo de apis backend, desarrollo de sitios web, integración de bots, análisis de datos con python.",
+        "titlePortfolio": "Portafolio",
+        "subtitlePortfolio": "Proyectos realizados",
+        "detailPortfolio": "A continuación mi portafolio con diferentes trabajos de motivación.",
+        "titleTestimonials": "Reseñas",
+        "subtitleTestimonials": "Lo que dicen mis clientes",
+        "detailTestimonials": "A continuación mis clientes que me han confiado su confianza.",
+        "blog": "Blogs",
+        "recentNews": "Noticias Recientes",
+        "detailNews": "A continuación mis noticias recientes.",
+        "contact": "Contacto",
+        "subtitleContact": "Hablemos de tu proyecto",
+        "detailProduct": "Siempre estoy abierto a conversar sobre una nueva idea",
+        "partnerships": "Seamos socios o desarrollemos juntos"
+
     }
 
 }

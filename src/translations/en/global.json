@@ -26,7 +26,7 @@
     },
     "Slider": {
         "name": "Hi! I'm Jaime Hernández",
-        "from": "From Chile",
+        "from": "Developer",
         "bio": "I develop custom software",
         "getStarted": "Get Started"
     },
@@ -40,6 +40,27 @@
         "emailRequired": "Email is required",
         "subject": "Subject *",
         "message": "Message *"
+    },
+    "Home": {
+        "aboutMe": "About Me",
+        "detail":  "I am a software engineer currently working in Santiago de Chile. My goal is to make a difference through creative solutions. Work with project teams to create application interfaces and websites that help make life easier and easier for users.",
+        "titleServices": "Services",
+        "subtitleServices": "I provide wide range of digital services",
+        "detailServices": "custom software development, backend apis development, website development, bot integration, data analysis with python.",
+        "titlePortfolio": "Portfolio",
+        "subtitlePortfolio": "My Portfolio",
+        "detailPortfolio": " Next my portfolio with different demotivation works",
+        "titleTestimonials": "Testimonials",
+        "subtitleTestimonials": "What's Clients Say",
+        "detailTestimonials": "Below are my clients who have entrusted me with their trust.",
+        "blog": "Blogs",
+        "recentNews": "Recent News",
+        "detailNews": "Below are my recent news",
+        "contact": "Contact",
+        "subtitleContact": "Let's discuss your project",
+        "detailProduct": "  I'm always open to discussing product",
+        "partnerships": "developer work or partnerships"
+
     }
 
 }
