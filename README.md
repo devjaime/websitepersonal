@@ -3,7 +3,7 @@
 # Personal Portfolio React Template
 
 ## Description
-Setup Procedure
+Setup Procedure change log 
 ## Project setup
 ```
 npm install
