@@ -7,16 +7,12 @@ if (process.env.NODE_ENV !== 'test') Modal.setAppElement('#root');
 const Blog = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isOpen2, setIsOpen2] = useState(false);
-  const [isOpen3, setIsOpen3] = useState(false);
 
   function toggleModalOne() {
     setIsOpen(!isOpen);
   }
   function toggleModalTwo() {
     setIsOpen2(!isOpen2);
-  }
-  function toggleModalThree() {
-    setIsOpen3(!isOpen3);
   }
 
   return (

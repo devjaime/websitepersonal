@@ -3,9 +3,9 @@ import React from "react";
 import Header from "../../components/header/HeaderDark";
 import Slider from "../../components/slider/SliderDarkParticles";
 import About from "../../components/about/AboutDark";
-import Service from "../../components/service/Service";
+
 import Portfolio from "../../components/portfolio/Portfolio";
-import Testimonial from "../../components/testimonial/Testimonial";
+
 import Blog from "../../components/blog/Blog";
 import Contact from "../../components/Contact";
 import Footer from "../../components/footer/Footer";
