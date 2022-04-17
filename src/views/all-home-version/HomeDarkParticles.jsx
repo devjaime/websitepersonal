@@ -50,7 +50,7 @@ const HomeDarkParticles = () => {
       {/* /ABOUT */}
 
       {/* SERVICES */}
-      <div className="beny_tm_services" id="service">
+      {/* <div className="beny_tm_services" id="service">
         <div className="container">
           <div className="beny_tm_title_holder">
             <span> {t("Home.titleServices")}</span>
@@ -59,10 +59,9 @@ const HomeDarkParticles = () => {
             {t("Home.detailServices")}
             </p>
           </div>
-          {/* End beny_tm_title */}
           <Service />
         </div>
-      </div>
+      </div> */}
       {/* /SERVICES */}
 
       {/* PORTFOLIO */}
@@ -82,7 +81,7 @@ const HomeDarkParticles = () => {
       {/* /PORTFOLIO */}
 
       {/* TESTIMONIALS */}
-      <div className="beny_tm_testimonials">
+      {/* <div className="beny_tm_testimonials">
         <div className="container">
           <div className="beny_tm_title_holder">
             <span> {t("Home.titleTestimonials")}</span>
@@ -91,12 +90,11 @@ const HomeDarkParticles = () => {
             {t("Home.detailTestimonials")}
             </p>
           </div>
-          {/* End beny_tm_title */}
           <div className="testimonials_list">
             <Testimonial />
           </div>
         </div>
-      </div>
+      </div> */}
       {/* /TESTIMONIALS */}
 
       {/* NEWS */}

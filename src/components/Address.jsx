@@ -3,10 +3,10 @@ import React from "react";
 const Address = () => {
   return (
     <ul>
-      <li>
+      {/* <li>
         <img className="svg" src="img/svg/phone.svg" alt="" />
         <a href="Tel: 7614123224">+56 949288019</a>
-      </li>
+      </li> */}
       {/* End li */}
 
       <li>
