@@ -107,6 +107,30 @@ const Portfolio = () => {
             </div>
           </li>
           {/* End youtube 4 */}
+          <li>
+            <ModalVideo
+              channel="youtube"
+              autoplay
+              isOpen={isOpen4}
+              videoId="tePBYb_UgCs"
+              onClose={() => setOpen4(false)}
+            />
+            {/* End Youtube Modal video */}
+            <div className="list_inner video" onClick={() => setOpen4(true)}>
+              <div className="overlay"></div>
+              <img
+                className="svg popup"
+                src="img/svg/social/youtube.svg"
+                alt="socia"
+              />
+              <div className="title">
+                <h3>Realidad Virtual con ReactJS</h3>
+                <span>Youtube</span>
+              </div>
+              <img src="https://i.ytimg.com/vi/tePBYb_UgCs/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAdQ1zY9TCegZY1p_hsLTUcJx2yZA" alt="Youtube" />
+            </div>
+          </li>
+          {/* End youtube 5 */}
         </ul>
       </div>
     </SimpleReactLightbox>
