@@ -102,7 +102,7 @@ const Preview = () => {
               10 Unique Demos
             </h3>
             <p data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">
-              Beny – personal portfolio React Template can be used for many
+              Beny – personal portfolio React can be used for many
               purposes. It’s a creative, minimal and clean design.It’s 100%
               responsive & super Fast.
             </p>
