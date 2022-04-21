@@ -102,9 +102,7 @@ const Preview = () => {
               10 Unique Demos
             </h3>
             <p data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">
-              Beny – personal portfolio React can be used for many
-              purposes. It’s a creative, minimal and clean design.It’s 100%
-              responsive & super Fast.
+               personal portfolio React JS Jaime Hernandez
             </p>
           </div>
           {/* End intro_title */}
@@ -143,7 +141,7 @@ const Preview = () => {
           Purchase The Beny and Build Your Own{" "}
           <span className="theme-color">React JS</span> &amp;{" "}
           <span className="theme-color">Pure CSS </span> Based Portfolio
-          Template.
+          Jaime Hernandez Software Engineer, Developer.
         </h3>
         <div
           className="beny_tm_button color "
@@ -166,10 +164,7 @@ const Preview = () => {
 
       <div className="intro_copyright">
         <p>
-          &copy; {new Date().getFullYear()} Beny by{" "}
-          <a href="https://themeforest.net/user/ib-themes" target="_blank">
-            ib-themes.
-          </a>{" "}
+          &copy; {new Date().getFullYear()} by{" "}
           All Rights Reserved.
         </p>
       </div>

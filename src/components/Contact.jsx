@@ -1,9 +1,14 @@
-import React, { useRef } from 'react';
+import React, { useRef , useState} from 'react';
 import {useTranslation} from "react-i18next";
 import emailjs from '@emailjs/browser';
 import { useForm } from "react-hook-form";
-
+import Modal from "react-modal";
+import Social from "../../src/components/Social";
 const Contact = () => {
+  const [isOpen, setIsOpen] = useState(false);
+  function toggleModalOne() {
+    setIsOpen(!isOpen);
+  }
   const {
     register,
     handleSubmit,
@@ -22,8 +27,7 @@ const Contact = () => {
     emailjs
       .send('default_service', 'template_n6w67mf', formData, 'TSiwOkZ-7VoQd5PGb')
       .then((result) => {
-          console.log(result.text);
-          alert("Message sent!");
+          setIsOpen(true);
       }, (error) => {
           console.log(error.text);
       });
@@ -33,6 +37,64 @@ const Contact = () => {
 
   return (
     <>
+     <Modal
+        isOpen={isOpen}
+        onRequestClose={toggleModalOne}
+        contentLabel="My dialog"
+        className="custom-modal"
+        overlayClassName="custom-overlay"
+        closeTimeoutMS={500}
+      >
+        <div className="beny_tm_modalbox_news">
+          <button className="close-modal" onClick={toggleModalOne}>
+            <img src="/img/svg/cancel.svg" alt="close icon" />
+          </button>
+          {/* End close icon */}
+
+          <div className="box_inner">
+            <div className="description_wrap scrollable">
+              <div className="image">
+                <img src="/img/placeholders/4-3.jpg" alt="thumb" />
+                <div
+                  className="main"
+                  style={{
+                    backgroundImage: `url(${
+                      process.env.PUBLIC_URL + "https://media-exp1.licdn.com/dms/image/C5616AQF5j5YyTJsGWg/profile-displaybackgroundimage-shrink_350_1400/0/1646692775135?e=2147483647&v=beta&t=4VN0W-QJrIaWxlnIL24shMpPWxdEQKiH41gLao8Pqqk"
+                    })`,
+                  }}
+                ></div>
+              </div>
+              {/* End image */}
+
+              <div className="details">
+                <span>
+                Gracias por contactarme puedes ver mis últimas publicaciones aquí <a href="https://devjaime.medium.com/"> Pronto te contactaré 😉</a>
+                </span>
+                <h3 className="title" onClick={toggleModalOne}>
+                  Sobre Mi
+                </h3>
+              </div>
+              {/* End details */}
+
+              <div className="main_content">
+                <div className="descriptions">
+                  <p className="bigger">
+                    Soy un desarrollador web con experiencia en React y Node.js, Django, Flutter y React Native.
+                          </p>
+                        </div>
+                        {/* End description */}
+                        <div className="news_share ">
+                          <span>Share:</span>
+                          <Social />
+                        </div>
+                        {/* End news share */}
+                      </div>
+                    </div>
+                  </div>
+                  {/* End box inner */}
+                </div>
+                {/* End modal box news */}
+              </Modal>
     <form ref={form} className="contact_form" id="contact-form" onSubmit={handleSubmit(sendEmail)}>
         <div className="first_row">
           <input
