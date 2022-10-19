@@ -3,7 +3,7 @@
 # Personal Portfolio React
 
 ## Description
-Setup Procedure change log v1  pruebas  feat fea
+Setup Procedure change log v1  pruebas  feat fea feat
 ## Project setup
 ```
 npm install
