@@ -89,10 +89,26 @@ const awardContent = [
   }
 ];
 const experienceContent = [
+{
+        designation: "Backend Engineer",
+        jobType: "Full Time | Remote",
+        year: "2023 - Present",
+        compnayName: "Falabella CL",
+        descriptions:
+            "Backend engineer, specialized in accounting solutions, for Falabella Corporate Chile, using Node.js technologies, microservices, GCP cloud, and React frontend.",
+  },
+  {
+    designation: "FullStack Developer",
+    jobType: "Full Time | Remote",
+    year: "2022 - 2023",
+    compnayName: "Continuum HQ",
+    descriptions:
+        "Full-stack developer for clinical healthcare systems, focused on Node.js programming with GraphQL and hexagonal architecture, and React frontend. ",
+  },
   {
     designation: "Backend Engineer",
     jobType: "Full Time | Remote",
-    year: "2021 - Present",
+    year: "2021 - 2022",
     compnayName: "Cornershop by Uber",
     descriptions:
       "Design and program solutions and codes for divisions of clients, buyers, stores and brands, in addition to other areas of the company, as well as other developments technology in which it requires your contribution. ",

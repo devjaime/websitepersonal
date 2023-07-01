@@ -85,10 +85,10 @@ const SliderDarkParticles = () => {
             {/* End .social */}
 
             <div className="beny_tm_button">
-              <a className="anchor" href="#about">
+              <a className="anchor" href="#portfolio">
                 <span className="wrapper">
-                  <span className="first">Empezar</span>
-                  <span className="second">Empezar</span>
+                  <span className="first">Portfolio</span>
+                  <span className="second">Portfolio</span>
                 </span>
               </a>
             </div>
