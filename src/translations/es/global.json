@@ -8,7 +8,7 @@
         "titleinfo": "Información Personal",
         "titleName": "Nombre",
         "titleAdress": "Dirección",
-        "titleTwitter": "Teléfono",
+        "titleTwitter": "Twitter",
         "titleEmail": "Email",
         "titleLanguagles": "Idiomas",
         "FreelanceAvailable": "Disponible",
@@ -28,7 +28,7 @@
         "name": "Hola! Soy Jaime Hernández",
         "from": "Developer",
         "bio": "Desarrollador de software a medida",
-        "getStarted": "Empezar"
+        "getStarted": "Portfolio"
     },
     "Contact":{
         "nameRequired": "Por favor ingrese su nombre",
