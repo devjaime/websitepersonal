@@ -1,7 +1,8 @@
 import React from "react";
 import Social from "../Social";
 import SocialTwo from "../SocialTwo";
-import Particles from "react-particles-js";
+//import Particles from "react-particles-js"; // obsoleto
+// import { Particles } from "react-tsparticles";
 import ReactTyped from "react-typed";
 import {useTranslation} from "react-i18next";
 
@@ -11,7 +12,7 @@ const SliderDarkParticles = () => {
     //    HERO
     <div className="beny_tm_hero" id="home">
       <div className="frame-layout__particles dark">
-        <Particles
+        {/* <Particles
           params={{
             particles: {
               number: {
@@ -30,7 +31,7 @@ const SliderDarkParticles = () => {
               },
             },
           }}
-        />
+        /> */}
       </div>
       {/* End particle animation */}
       <div className="background">
